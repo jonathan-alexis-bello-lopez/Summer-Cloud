@@ -231,4 +231,14 @@ Estos modelos definen los diferentes niveles de responsabilidad compartida de un
 ###  Informática sin servidor
 
 Es la tendencia de la industria a no preocuparse por los aspectos del servidor, y dejárselo a terceros. De esta manera se puede concentrar en resolver y crear las soluciones que se requieran.
-# Prueba!!!
+## Componentes principales arquitectura Azure
+
+Recursos: Los recursos son instancias de servicios que puede crear, como máquinas virtuales, almacenamiento o bases de datos SQL.
+
+Grupos de recursos: Los recursos se combinan en grupos de recursos, que actúan como contenedor lógico en el que se implementan y administran recursos de Azure como aplicaciones web, bases de datos y cuentas de almacenamiento.
+
+Suscripciones: Una suscripción agrupa las cuentas de usuario y los recursos que han creado esas cuentas de usuario. Para cada suscripción, hay límites o cuotas en la cantidad de recursos que se pueden crear y usar. Las organizaciones pueden usar las suscripciones para administrar los costos y los recursos creados por los usuarios, equipos o proyectos.
+
+Grupos de administración: Estos grupos le ayudan a administrar el acceso, las directivas y el cumplimiento de varias suscripciones. Todas las suscripciones de un grupo de administración heredan automáticamente las condiciones que se aplican al grupo de administración.
+
+![Microsoft Azure ¿Qué es y qué aporta al Cloud Computing?](README.assets/cloud-computing-hierarchy-372fef74.png)
