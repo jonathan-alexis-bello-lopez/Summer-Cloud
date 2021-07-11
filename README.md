@@ -1,7 +1,6 @@
 # SUMMER CLOUD APUNTES
 
-
-![img-banner](README.assets/image-20210709233811955.png)
+![img-banner](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.consultoresenit.com.ar%2F2016%2F08%2F24%2Fcloud-lleva-microsoft-dejar-vender-solo-licencias-software%2F&psig=AOvVaw2W9yQLqmIx2d0SL5RmSCfE&ust=1626070784549000&source=images&cd=vfe&ved=0CAcQjRxqFwoTCKi0vZew2vECFQAAAAAdAAAAABAD)
 
 ## Summer Cloud Cracks TEAM!
 ![THE TEAM](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt4C49JK8nTSi6M14D9gbctGUXpa4KWiHioA&usqp=CAU)
