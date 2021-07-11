@@ -26,7 +26,7 @@ Antes de comenzar a describir la arquitectura, vamos a describir los siguientes 
 Dicho esto, podemos continuar con la descripción de los componentes, los cuales son:
  - Regiones de Azure
  <p> Las regiones de Azure son un conjunto de centros de datos implementados dentro de un perímetro definido por latencia, y se conectan a través de una red de baja latencia. Actualmente hay 42 regiones disponibles en todo el mundo.</p>
-  
+
  - Regiones de emparejamiento
  <p>Como ya sabemos Microsoft opera centros de datos todo el mundo, esto incluye a Azure que cuenta con muchas ubicaciones diferentes. Una ubicación en Azure se refiere a un área donde se encuentra al menos una región de Azure. Una región de Azure se refiere a un área dentro de una geografía que contiene uno o más centros de datos de Azure.
 <br>
@@ -40,12 +40,160 @@ Cada zona de disponibilidad dentro de una región de Azure se compone de una com
 Se pueden utilizar las zonas de disponibilidad para ejecutar aplicaciones con un trabajo crítico y crear alta disponibilidad en la arquitectura de su aplicación colocando sus recursos informáticos, de almacenamiento, de red y de datos dentro de una zona y replicando en otras zonas. <br>
 Las zonas de disponibilidad son principalmente para máquinas virtuales, discos administrados, balanceadores de carga y bases de datos SQL. Los servicios de Azure que admiten zonas de disponibilidad se dividen en dos categorías: Servicios de zona y Servicios con redundancia de zona. 
 </p>
- 
- - Grupo de recursos
- <p> Los grupos de recursos son contenedores lógicos en Azure. Contienen recursos de Azure relacionados que forman parte de una solución de Azure más grande. Estos grupos de recursos pueden hospedar todos los recursos que componen una solución de Azure, o también pueden hospedar solo los recursos que deben administrarse como parte de un grupo.
+
+- Grupo de recursos
+<p> Los grupos de recursos son contenedores lógicos en Azure. Contienen recursos de Azure relacionados que forman parte de una solución de Azure más grande. Estos grupos de recursos pueden hospedar todos los recursos que componen una solución de Azure, o también pueden hospedar solo los recursos que deben administrarse como parte de un grupo.
 <br>
 Al trabajar con grupos de recursos de Azure, hay algunas cosas a considerar, como por ejemplo, dado que todos los recursos dentro de un solo grupo de recursos generalmente comparten un ciclo de vida similar, es importante determinar el ciclo de vida de los recursos que planea colocar en un solo grupo de recursos. </p>
- 
+
  - Administrador de recursos
   <p> Dentro de Azure, existen varios componentes que proporcionan la infraestructura para una aplicación o servicio que se ha implementado en Azure. 
 Debido a que todas estas partes funcionan juntas para brindar una solución, generalmente se implementan, administran y monitorean todos estos recursos como un grupo. El administrador de recursos es una herramienta que le permite trabajar con todos los recursos subyacentes que forman parte de una solución como grupo. Con el administrador de recursos, puede implementar, actualizar e incluso eliminar todos los recursos que forman una solución en una sola operación coordinada.</p>
+
+
+# Introducción a aspectos básicos de Azure
+
+## ¿Qué es la nube?
+
+La nube se refiere a la entrega de servicios informáticos a través de internet, estos pueden ser:
+
+- Almacenamiento
+- Bases de datos
+- Redes de software
+- Inteligencia Artificial
+- Análisis de datos
+
+Y sus principales ventajas es el ahorro económico generado para los consumidores y creadores de soluciones. Lo barato del costo se debe a que solo pagas lo que usas por lo general. De esta manera si tienes por ejemplo pocos usuarios solo vas a pagar lo que consuman ellos.
+
+Y te dejas de preocupar de comprar, mantener y administrar servidores super potentes, ya que Microsoft se encarga de eso dejándote a ti preocuparte de tu emprendimiento o proyecto.
+
+## ¿Por que usar la nube?
+
+El avance de la tecnología es cada vez mas rápido en el mundo actual, lo que provoca que debamos crear soluciones de software de manera rápida y eficiente. Con el computo en la nube no solo dejas de inventar la rueda, sino que tienes a tu alcance soluciones tan complejas como la inteligencia artificial de manera accesible, sin tener que hacer el gasto descomunal para implantarla en tu proyecto.
+
+![☁ ¿Qué es la nube? | EDteam](README.assets/2f0378ad-ab8c-48ba-bdbb-7b352e96dc07.jpg)
+
+# Azure
+
+Azure es un servicio de computo en la nube que ofrece Microsoft. Azure ofrece mas de 100 servicios de computo en la nube funciona como una API para todos los servicios que ofrece haciendo la experiencia amena al trabajar con el. Ya que tu solo mediante el uso de formularios e interfaz te encargas de armar todo. Y esta interfaz se le conoce como **Azure portal**.
+
+Desde Azure portal podremos tener un control personalizado de los servicios que hemos solicitado además:
+
+- Tenemos estadísticas de nuestros servicios en tiempo real
+- Podemos detener e iniciar desde aquí los procesos.
+- Y al ser web podremos acceder a el desde cualquier sitio, y sin tener que estarse molestado con actualizaciones.
+
+## ¿Qué es Azure Marketplace?
+
+Es la sección en la cual Microsoft coloca las soluciones creadas por desarrolladores independientes u terceros para que sean accedidas desde Azure de manera sencilla. Todas estas soluciones están listas para ser probadas o compradas, teniendo el sello de calidad de Microsoft.
+
+Ahora se verán con más detalle las categorías que se usan con más frecuencia:
+
+- Proceso
+  - maquina virtual
+  - administración de clusters
+- Redes
+  - Coneción de maquinas virtuales
+  - Optimización de granjas de servidores
+- Almacenamiento
+  - Servicios de almacenamiento de archivos pesados
+  - Recursos compartidos
+- Móvil
+  - Crear servicios de Backend de manera sencilla
+  - Sincronización de datos sin conexión
+  - Difusión de notificaciones
+- Bases de datos
+  - Bases de datos distribuidas globalmente
+  - Bases de datos posibles
+    - SQL
+    - MySQL
+    - PosgresSQL
+    - MariaDB
+- Web
+  - Creación rápida de aplicaciones en la nube.
+  - Notificaciones
+  - Publicación de APIs
+- Internet de las cosas (IoT)
+  - Supervisión global de IoT
+  - Centro de mensajeria y comunicaciones seguras
+- Macrodatos
+  - Analisis de gran escala
+  - Procesamiento de gran cantidad de datos
+- INTELIGENCIA ARTIFICIAL
+  - Marchine learning
+  - Identificación de Imágenes y voz
+- DevOps
+  - Herramienta de colaboración de desarrollado, como GitHub
+  - Test rápido de entornos
+
+# Primeros pasos para usar Azure
+
+Para ello debes de crear una cuenta en el sitio web de azure. Para empezar con tus practicas.
+
+## Espacio Aislado
+
+Cuando entras a un modulo de practicas Learn, se te permitirá crear lo que se conoce como espacio aislado, este se borrara al terminar la practica o dentro de 3h. Esto nos permite realizar practicas sin costo alguno.
+
+## Paneles de Azure
+
+Un *panel* es una colección personalizable de iconos de interfaz de usuario mostrados en Azure Portal. 
+
+# Conceptos fundamentales de Azure
+
+## Tipos de nubes
+
+Existen 3 tipos de nubes que se pueden implementar para realizar soluciones de software.
+
+- Pública: Es aquella como Azure la cual puede ser accedida por cualquier persona para contratar sus servicios
+- Privada: Es de exclusivo acceso para la empresa que creo la infraestructura.
+- Hibrida: Combina las dos anteriores, permitiendo compartir información entre ellas.
+
+## Comparación de modelos de nube
+
+### Nube pública
+
+- No hay gastos de capital para escalar verticalmente.
+- Las aplicaciones pueden aprovisionarse y desaprovisionarse rápidamente.
+- Las organizaciones solo pagan por lo que usan.
+
+### Nube privada
+
+- Debe adquirirse hardware para el inicio y el mantenimiento.
+- Las organizaciones tienen un control total de los recursos y la seguridad.
+- Las organizaciones son responsables del mantenimiento y las actualizaciones del hardware.
+
+### Nube híbrida
+
+- Proporciona la máxima flexibilidad.
+- Las organizaciones determinan dónde se van a ejecutar sus aplicaciones.
+- Las organizaciones controlan la seguridad, el cumplimiento o los requisitos legales.
+
+## Ventajas de usar la nube
+
+Las principales ventajas del computo en la nube son:
+
+- **Alta disponibilidad**: Nos permite tener menor tiempo de inactividad de nuestros servicios.
+- **Escalabilidad**: Permite escalar vertical y horizontalmente
+  - Escalabilidad vertical -> aumento de RAM o CPU
+  - Escalabilidad horizontal -> aumento de mediante recursos, como Maquinas virtuales
+- **Elasticidad**: puedes disponer todos los recursos que necesites
+- **Agilidad**: fácilmente configurables
+- **Distribución geográfica**: permite escoger las mejores regiones de los centros de datos para optimizar tu proyecto dependiendo de la localización de tu empresa.
+- **Recuperación ante desastres**: nos proporciona seguridad de replica de datos para estar protegidos de algún percance.
+
+## Gastos de capital
+
+Existen dos tipos de gastos importantes a contemplar.
+
+- **Gastos de capital (CapEx)**:  es la inversión realizada en infraestructura física inicial. Este valor disminuye con el tiempo
+- **Gastos operativos (OpEx)**: es el dinero invertido en productos o servicios de manera inmediata sin necesidad de costos previos, ya que se paga a medida que se usa.
+
+Los recursos en la nube, se clasifican como **OpEx**. Esto es debido a que la nube se basa en el **modelo basado en consumo** que en pocas palabras es: “Solo pagas por lo que consumes”
+
+> En resumen, CapEx requiere unos costos financieros previos considerables, así como unos gastos continuos de mantenimiento y soporte técnico. En cambio, OpEx es un modelo basado en el consumo, así que solo eres responsable del costo de los recursos informáticos que utiliza.
+
+## Modelos de servicio en la nube
+
+Estos modelos definen los diferentes niveles de responsabilidad compartida de un proveedor de nube y un inquilino de nube.
+
+![☁ Modelos de servicios en la nube | EDteam](README.assets/0ab78cf7-09d1-4509-b06a-2c6e4ac648ea.jpg)
