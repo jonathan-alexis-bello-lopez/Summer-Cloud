@@ -181,7 +181,7 @@ Las principales ventajas del computo en la nube son:
 - **Distribución geográfica**: permite escoger las mejores regiones de los centros de datos para optimizar tu proyecto dependiendo de la localización de tu empresa.
 - **Recuperación ante desastres**: nos proporciona seguridad de replica de datos para estar protegidos de algún percance.
 
-## Gastos de capital
+## Tipos de gastos
 
 Existen dos tipos de gastos importantes a contemplar.
 
