@@ -241,4 +241,8 @@ Suscripciones: Una suscripción agrupa las cuentas de usuario y los recursos que
 
 Grupos de administración: Estos grupos le ayudan a administrar el acceso, las directivas y el cumplimiento de varias suscripciones. Todas las suscripciones de un grupo de administración heredan automáticamente las condiciones que se aplican al grupo de administración.
 
-![Microsoft Azure ¿Qué es y qué aporta al Cloud Computing?](README.assets/cloud-computing-hierarchy-372fef74.png)
+![img-banner](README.assets/cloud-computing-hierarchy-372fef74.png)
+
+### Regiones Azure
+
+Una región de Azure es un conjunto de centros de datos implementados dentro de un perímetro definido por la latencia y conectados a través de una red regional dedicada de baja latencia. Cada zona consta de uno o varios centros de datos equipados con alimentación, refrigeración y redes independientes.
