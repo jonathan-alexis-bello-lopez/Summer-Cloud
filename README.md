@@ -1,6 +1,6 @@
-# SUMMER CLOUD APUNTES
+# EXPERIENCE CLOUD SUMMER
 
-![img-banner](README.assets/image-20210709233811955.png)
+![img-banner](README.assets/cloud-computing-azure-00.jpg)
 
 ## Integrantes
 
