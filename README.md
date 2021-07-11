@@ -10,10 +10,6 @@
 - Paola Salas
 - Jonathan Alexis Bello López
 
-## Introducción a aspectos básicos de Azure
-
-Escribir
-
 ## Componentes de la arquitectura de Azure
 
 Antes de comenzar a describir la arquitectura, vamos a describir los siguientes conceptos para poder comprender mejor este tema:
