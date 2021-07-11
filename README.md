@@ -124,11 +124,11 @@ Ahora se verán con más detalle las categorías que se usan con más frecuencia
 
 # Primeros pasos para usar Azure
 
-Para ello debes de crear una cuenta en el sitio web de azure. Para empezar con tus practicas.
+Para ello debes de crear una cuenta en el sitio web de [Azure](https://azure.microsoft.com/es-mx/free/search/?OCID=AID2200215_SEM_86f47dae4ae816071cbe1d44c2ff25f3:G:s&ef_id=86f47dae4ae816071cbe1d44c2ff25f3:G:s&msclkid=86f47dae4ae816071cbe1d44c2ff25f3).
 
 ## Espacio Aislado
 
-Cuando entras a un modulo de practicas Learn, se te permitirá crear lo que se conoce como espacio aislado, este se borrara al terminar la practica o dentro de 3h. Esto nos permite realizar practicas sin costo alguno.
+Cuando entras a un modulo de practicas Learn, se te permitirá crear lo que se conoce como espacio aislado, este se borrara al terminar la practica o dentro de 4h. Esto nos permite realizar practicas sin costo alguno.
 
 ## Paneles de Azure
 
