@@ -132,7 +132,7 @@ Cuando entras a un modulo de practicas Learn, se te permitirá crear lo que se c
 
 ## Paneles de Azure
 
-Un *panel* es una colección personalizable de iconos de interfaz de usuario mostrados en Azure Portal. 
+Un *panel* es una colección personalizable de iconos de interfaz de usuario mostrados en Azure Portal.
 
 # Conceptos fundamentales de Azure
 
@@ -193,3 +193,8 @@ Los recursos en la nube, se clasifican como **OpEx**. Esto es debido a que la nu
 Estos modelos definen los diferentes niveles de responsabilidad compartida de un proveedor de nube y un inquilino de nube.
 
 ![☁ Modelos de servicios en la nube | EDteam](README.assets/0ab78cf7-09d1-4509-b06a-2c6e4ac648ea.jpg)
+
+###  Informática sin servidor
+
+Es la tendencia de la industria a no preocuparse por los aspectos del servidor, y dejárselo a terceros. De esta manera se puede concentrar en resolver y crear las soluciones que se requieran.
+
